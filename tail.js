@@ -9,4 +9,3 @@ const tail = (arr) => {
   return newArr.splice(1);
 
 };
-
