@@ -6,9 +6,9 @@ const middle = (arr) => {
       middle.push(arr.length / 2);
       middle.push(arr.length / 2 + 1);
     } else {
-      middle.push(Math.ceil(arr.length / 2))
+      middle.push(Math.ceil(arr.length / 2));
     }
   }
   return middle;
 
-}
+};
