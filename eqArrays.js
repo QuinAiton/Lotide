@@ -5,11 +5,9 @@ const assertEqual = (actual, expected) => {
 };
 
 const eqArrays = (actual, expected) => {
-  for (let i = 0; i < expected.length; i++) {
-    for (let j = 0; j < expected.length; j++) {
-      if (expected[i] !== actual[i]) {
-        return false
-      }
+  for (let i = 0; i < actual.length; i++) {
+    if (expected[i] !== actual[i]) {
+      return false
     }
   }
   return true
