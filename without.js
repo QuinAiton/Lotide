@@ -8,3 +8,5 @@ const without = (input, remove) => {
   }
   return newArr
 }
+
+module.exports = without;

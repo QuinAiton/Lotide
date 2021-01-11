@@ -10,7 +10,6 @@ const middle = (arr) => {
     }
   }
   return middle;
-
 };
 
 module.exports = middle;

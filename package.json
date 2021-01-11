@@ -1,0 +1,26 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "helper function library",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinAiton/Lotide.git"
+  },
+  "author": "Quinten Aiton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinAiton/Lotide/issues"
+  },
+  "homepage": "https://github.com/QuinAiton/Lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

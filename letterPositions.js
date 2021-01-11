@@ -11,4 +11,6 @@ const letterPositions = (sentence) => {
   return (result);
 };
 
-console.log(letterPositions("hello"));
+console.log(letterPositions("hello there sailer"));
+
+module.exports = letterPositions;

@@ -1,4 +1,4 @@
-const assertEqual = (actual, expected) => {
+aconst assertEqual = (actual, expected) => {
   return actual === expected ?
     `✅✅Assertion Passed: ${actual} === ${expected}  ` :
     `❌❌ Assertion Failed : ${actual} !== ${expected}`;
