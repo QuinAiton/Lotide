@@ -1,16 +1,4 @@
 
-
-const assertArrayEqual = (actual, expected) => {
-  for (let i = 0; i < actual.length; i++) {
-    for (let j = 0; j < expected.length; j++) {
-      if (expected[i] !== actual[i]) {
-        return `❌❌ Assertion Failed : ${actual} !== ${expected}`;
-      }
-    }
-  }
-  return `✅✅Assertion Passed: ${actual} === ${expected}  `;
-};
-
 const middle = (arr) => {
   let middle = [];
   if (arr.length > 2) {
@@ -25,7 +13,4 @@ const middle = (arr) => {
 
 };
 
-assertArrayEqual(middle([1, 2, 3, 4, 5]), [3]);
-assertArrayEqual(middle([1, 2]), []);
-assertArrayEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
-assertArrayEqual(middle(['sam', 'i', 'am', 'green']), ['i', 'am']);
+module.exports = middle;
