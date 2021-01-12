@@ -11,14 +11,14 @@ describe('#assertObjectEqual', () => {
   const cd4 = { c: "1", d: ["2", "3"] };
   it(` should return true when comparing ${inspect(cd)} 
   to ${inspect(cd2)}`, () => {
-    assert.isTrue(assertObjectEqual(cd, cd2))
-  })
+    assert.isTrue(assertObjectEqual(cd, cd2));
+  });
   it(` should return false when comparing ${inspect(cd2)} 
   to ${inspect(cd3)}`, () => {
-    assert.isFalse(assertObjectEqual(cd2, cd3))
-  })
+    assert.isFalse(assertObjectEqual(cd2, cd3));
+  });
   it(` should return false when comparing ${inspect(cd2)} 
   to ${inspect(cd4)}`, () => {
-    assert.isFalse(assertObjectEqual(cd2, cd4))
-  })
-})
+    assert.isFalse(assertObjectEqual(cd2, cd4));
+  });
+});
