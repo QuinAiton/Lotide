@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@quintenaiton/lotide",
   "version": "1.0.0",
-  "description": "helper function library",
+  "description": "js library similar to the lodash library that holds different helper functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "tests"

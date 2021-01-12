@@ -3,3 +3,4 @@ const flatten = (arr) => {
   const filtered = joinArr.filter(item => item !== ',');
   return filtered;
 };
+module.exports = flatten;

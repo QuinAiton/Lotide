@@ -1,4 +1,3 @@
-const assertArrayEqual = require('./assertArraysEqual');
 
 const map = (array, callback) => {
   const results = [];
@@ -7,11 +6,6 @@ const map = (array, callback) => {
   }
   return results;
 };
-
-
-
-
-
 
 module.exports = map;
 

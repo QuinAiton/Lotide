@@ -14,7 +14,5 @@ const takeUntill = (array, callback) => {
   return result;
 };
 
-console.log(takeUntill(data1, (word) => word < 0));
-console.log(takeUntill(data2, (word) => word === ','));
 
-module.exports = takeUntill
+module.exports = takeUntill;

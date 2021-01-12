@@ -1,7 +1,7 @@
 
 const tail = (arr) => {
   const newArr = [...arr].splice(1);
-  return newArr
+  return newArr;
 
 };
 

@@ -1,5 +1,5 @@
 const assertEqual = (actual, expected) => {
-  return actual === expected
+  return actual === expected;
 };
 
 

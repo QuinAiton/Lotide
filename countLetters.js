@@ -1,11 +1,6 @@
-const assertEqual = (actual, expected) => {
-  return actual === expected ?
-    `✅✅Assertion Passed: ${actual} === ${expected}  ` :
-    `❌❌ Assertion Failed : ${actual} !== ${expected}`;
-};
 
 const countLetters = (string) => {
-  result = {};
+  let result = {};
   let split = string.split('');
   for (const letter of split) {
     if (result[letter]) {
@@ -15,5 +10,5 @@ const countLetters = (string) => {
     }
   }
   return result;
-}
-console.log(countLetters('hello'));
+};
+module.exports = countLetters;

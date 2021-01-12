@@ -29,13 +29,6 @@ const eqObjects = (actual, expected) => {
   }
   return true;
 };
-const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3], c: "1" };
-console.log(eqObjects(cd, dc)); // => true
 
-const cd2 = { c: "1", d: ["2", 3, 4] };
-const cd3 = { c: "1", d: ["2", 3] };
-console.log(eqObjects(cd, cd2)); // => false
-console.log(eqObjects(cd3, cd)); // => true
 
 module.exports = eqObjects;
